@@ -14,6 +14,7 @@ int main()
         {
             mt[i][j] =  1 + rand() % 100;
             printf("|\t%d\t|", mt[i][j]);
+            //printf("|\t%lf\t|", mt[i][j]); deberia funcionar xq toma la parte entera pero no sucede asi.
         }
         printf("\n");
     }
