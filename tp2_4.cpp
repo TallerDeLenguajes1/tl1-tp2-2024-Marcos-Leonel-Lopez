@@ -25,6 +25,7 @@ int main()
     mas_rapida(Lista_PC);       // e
     return 0;
 }
+
 void inicializa(Computadora *Lista)
 {
     int i, tipo;
